@@ -11,6 +11,10 @@ html[dir="ltr"],
   --toast-close-button-transform: translate(-35%, -35%);
 }
 
+html {
+  border: 18px solid deeppink !important;
+}
+
 html[dir="rtl"],
 [data-sonner-toaster][dir="rtl"] {
   --toast-icon-margin-start: 4px;

@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "Sonner is an opinionated toast component.",
   "main": "src/sonner.js",
+  "type": "module",
   "directories": {
     "example": "example"
   },
@@ -10,7 +11,9 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "uglifyjs src/sonner.js -o dist/sonner.min.js && uglifycss src/sonner.css --output dist/sonner.min.css"
+    "prepare": "uglifyjs src/sonner.js -o dist/sonner.min.js && uglifycss src/sonner.css --output dist/sonner.min.css",
+    "demo": "vite --open example/index.html",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -29,6 +32,7 @@
   "homepage": "https://github.com/fernandojpps/sonner-js#readme",
   "devDependencies": {
     "uglify-js": "^3.6.0",
-    "uglifycss": "^0.0.29"
+    "uglifycss": "^0.0.29",
+    "vite": "^7.0.6"
   }
 }
