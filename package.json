@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fernandojpps/sonner-js.git"
+    "url": "git+https://github.com/hello-spaceman/sonner-js.git"
   },
   "keywords": [
     "sonner",
@@ -27,9 +27,9 @@
   "author": "Fernando Pina dos Santos",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fernandojpps/sonner-js/issues"
+    "url": "https://github.com/hello-spaceman/sonner-js/issues"
   },
-  "homepage": "https://github.com/fernandojpps/sonner-js#readme",
+  "homepage": "https://github.com/hello-spaceman/sonner-js#readme",
   "devDependencies": {
     "uglify-js": "^3.6.0",
     "uglifycss": "^0.0.29",
