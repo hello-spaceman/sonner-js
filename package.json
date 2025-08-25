@@ -2,11 +2,11 @@
   "name": "sonner-js",
   "version": "0.0.3",
   "description": "Sonner is an opinionated toast component.",
-  "main": "src/sonner.js",
-  "type": "module",
-  "directories": {
-    "example": "example"
+  "module": "dist/sonner.es.js",
+  "exports": {
+    "import": "./dist/sonner.es.js"
   },
+  "type": "module",
   "files": [
     "dist"
   ],
